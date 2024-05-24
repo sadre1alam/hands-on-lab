@@ -112,6 +112,48 @@ steps:
                   - columnCounter: e98d6152-f7dd-48c8-a588-f0fd7eb94277
                     stepCounter: 947fdb12-ebab-4dc6-8150-6daab66b4b84
                 transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 35301f0f-2489-43c8-820c-7fd24e29225a
+              stepCounter: 97f9ff27-ff3e-40bb-bea1-685280a2047a
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: CREATED_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: CURRENT_TIMESTAMP()
+            systemColumnType: None
+            transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 73be5db5-e1b7-4864-9a77-6193e1a09a09
+              stepCounter: 97f9ff27-ff3e-40bb-bea1-685280a2047a
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: CREATED_BY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: "'Test User'"
+            systemColumnType: None
+            transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
